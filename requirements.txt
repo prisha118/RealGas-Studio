@@ -1,0 +1,14 @@
+# Core program (cubic_eos.py and the pvt_eos package) runs on the Python
+# standard library alone -- Python 3.8 or newer, no third-party packages.
+#
+# The packages below are needed only for the optional extras:
+#   streamlit   -> the web app (app.py)
+#   numpy       -> vectorised sweeps in examples/make_figures.py
+#   matplotlib  -> the figures used in the report
+#   pandas      -> tabular display inside the web app
+#   pytest      -> the test suite in tests/
+streamlit>=1.28
+numpy>=1.21
+matplotlib>=3.5
+pandas>=1.3
+pytest>=7.0
